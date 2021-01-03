@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jsu.liyunguang.leavesys:war exploded">
+    <output-path>D:/software/apache-tomcat-9.0.38/webapps/jsu.liyunguang.leavesys/artifacts/jsu_liyunguang_leavesys_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jsu.liyunguang.leavesys" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.21" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="jsu.liyunguang.leavesys/web/Web" />
+    </root>
+  </artifact>
+</component>
